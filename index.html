@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Certificates</title>
-  </head>
-  <body>
-    <h2>Certificates</h2>
-    <ul>
-      <li><a href="Python.pdf" target="_blank">Python Certificate</a></li>
-      <!-- Add more links here -->
-    </ul>
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Certificates</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background-color: #f5f5f5;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 40px;
+    }
+    .certificate-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .certificate-item {
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width: 300px;
+        text-align: center;
+        padding: 10px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .certificate-item h3 {
+        font-size: 18px;
+        color: #1a73e8;
+        margin-bottom: 10px;
+    }
+    .certificate-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        pointer-events: none;
+        user-select: none;
+    }
+    .certificate-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+</style>
+</head>
+<body>
+<h1>My Certificates</h1>
+<div class="certificate-gallery">
+    <!-- Certificate 1 -->
+    <div class="certificate-item">
+        <h3>Introduction to Generative AI</h3>
+        <img src="intro_to_genai.jpg" alt="Gen AI certificate">
+    </div>
+     <div class="certificate-item">
+        <h3>Basics of Python</h3>
+        <img src="basicofpython.jpg" alt="Python certificate">
+    </div>
+    <!-- Certificate 3 -->
+    <div class="certificate-item">
+        <h3>Essentials of GenAI</h3>
+        <img src="essofgenai_page-0001.jpg" alt="Essential of Gen AI certificate">
+    </div>
+    <!-- Certificate 4 -->
+    <div class="certificate-item">
+        <h3>Learning through Power BI</h3>
+        <img src="powerbi.jpg" alt="Power BI  certificate">
+    </div>
+    <div class="certificate-item">
+        <h3>Python Essentials 1</h3>
+        <img src="python_essentionals1.jpg" alt="Python essentials 1 certificate">
+    </div>
+    <div class="certificate-item">
+        <h3>Python Essentials 2</h3>
+        <img src="python_essentionals2.jpg" alt="Python essentials 2certificate">
+    </div>
+
+</div>
+</body>
 </html>
+
